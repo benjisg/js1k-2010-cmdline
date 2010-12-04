@@ -1,6 +1,15 @@
 Project: javascript command line
 Author: Benji Schwartz-Gilbert
 Created: September 10th, 2010
+
+Works on:
+-- Firefox 3.6+
+-- Safari 5+
+-- Chrome 6+
+-- Opera 10+
+[ Basically needs canvas support ]
+
+
 Description:
 
 A javascript command line I built for the 2010 js1k competition. Description submitted with my entry:
