@@ -1,0 +1,26 @@
+Project: javascript command line
+Author: Benji Schwartz-Gilbert
+Created: September 10th, 2010
+Description:
+
+A javascript command line I built for the 2010 js1k competition. Description submitted with my entry:
+
+Canvas based JavaScript command line 
+Completely canvas rendered (no input/textarea elements or overlays) active command line which lets you build JS scripts on the fly. 
+
+Features: 
+-- Built in memory; stores assigned variables for you to be used later 
+-- Colorful error message with details on what went wrong 
+-- Namespaced to prevent (most) collisions with code you write and the running script 
+-- HIDDEN EASTER EGG: Have fun with it :) 
+
+How to use: 
+	Set variables: 
+		variable_name = function/value/object (don't use var in front of name) 
+	Use variables: 
+		Call the variable name directly (i.e. x*y) 
+	Use function: 
+		variable_name(arguments) Backspace key deletes, Enter executes line, functional shift for uppercase/alt-punctuation, arrows keys are symbol shortcuts (I claim feature :D)
+
+-- Entering 'c0w' (- quotes) on the command line randomly changes the color of the input prompt and entered text
+-- The js1kTester page is a simulation of the actual frame the scripts were expected to run in
